@@ -3639,14 +3639,14 @@ textarea:focus ~ #floating-label3,
 		.numbertext{
 			font-family: 'Merriweather Sans', sans-serif;
 			font-weight: 400;
-			font-size: 20px;
+			font-size: 18px;
 			padding: 12px 12px;
 		}
 
 		.prev, .next {
 			font-size: 26px;
 			background-color: rgba(0, 0, 0, 0.7);
-			padding: 12.5px;
+			padding: 10x;
 		}
 
 		.close {
