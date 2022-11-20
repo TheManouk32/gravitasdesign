@@ -735,7 +735,7 @@ nav .bi {
 	opacity: 0;
 	transition: opacity 1s ease-in-out;
 	border-radius: 2px;
-	transition: 0.5s ease-in-out;
+	transition: 0.75s ease-in-out;
 
 }
 
