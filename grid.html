@@ -1,0 +1,533 @@
+	<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Our Work</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+<link rel="stylesheet" href="https://use.typekit.net/tgg7jmd.css">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@300&display=swap" rel="stylesheet"> 
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans&display=swap" rel="stylesheet"> 
+
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+
+
+<script defer></script>
+
+</head>
+<body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		<nav class="sticky" class="sticky-active" id="navclose">
+			<a id="blur2" class="logo" href="index.html">GRAVITAS  DESIGN</a>
+			<div class="nav-links" id="navLinks">
+				<i style="margin: 23px;" id="xicon" class="bi bi-x-lg" onclick="hideMenu()"></i>
+				<ul>
+					<li><a href="index.html">HOME</a></li>
+					<li><a href="about.html">ABOUT</a></li>
+					<li><a href="contact.html">CONTACT</a></li>
+					<li><a href="grid.html">WORK</a></li>
+				</ul>
+			</div>
+			<i class="bi bi-list" onclick="showMenu()"></i>
+		</nav>
+
+<div id="blur">
+
+	<header class="subheader2">
+
+
+    <h1>OUR PROJECTS</h1>
+
+	</header>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--        Gallery Images     -->
+
+
+
+
+
+<section class="grid-container">
+	
+
+	<div class="gallery-container h-2 w-3">
+
+		<div class="gallery-item">
+			
+
+			<div class="image">
+
+				<img src="images/grid.jpg"  onclick="openModal();currentSlide(1)"  alt="photo of an enviromental restoration">
+				
+			</div>
+
+			<div class="gallery-text">Pfieffer Beach Restoration</div>
+
+		</div>
+
+	</div>
+
+
+
+	<div class="gallery-container h-4 w-3">
+
+		<div class="gallery-item">
+
+			<div class="image">
+
+				<img src="images/gridgallery2.jpeg" onclick="openModal();currentSlide(2)"  alt="photo of building garden design">
+				
+			</div>
+
+			<div class="gallery-text">Birchwood Condo Gardens</div>
+
+		</div>
+
+	</div>
+
+
+
+	<div class="gallery-container h-3 w-6">
+
+		<div class="gallery-item">
+
+			<div class="image">
+
+				<img src="images/gridgallery3.jpg" onclick="openModal();currentSlide(3)"  alt="birdseye view of pershing square">
+				
+			</div>
+			
+			<div class="gallery-text">Pershing Square Master Plan</div>
+
+		</div>
+
+	</div>
+
+
+
+	<div class="gallery-container h-2 w-3">
+
+		<div class="gallery-item">
+
+			<div class="image">
+
+				<img src="images/gridgallery1.jpg" onclick="openModal();currentSlide(4)"  alt="photo of a college quad">
+				
+			</div>
+		
+			<div class="gallery-text"> UCLA Quad Redesign</div>
+
+		</div>
+
+	</div>
+
+<div class="gallery-container h-2 w-3">
+
+		<div class="gallery-item">
+
+			<div class="image">
+
+				<img src="images/gridgallery6.jpg"  onclick="openModal();currentSlide(5)"   alt="photo of a roman style garden ">
+				
+			</div>
+		
+			<div class="gallery-text">Bel Air Roman Garden </div>
+
+		</div>
+
+	</div>
+
+
+
+	<div class="gallery-container h-3 w-3">
+
+		<div class="gallery-item">
+
+			<div class="image">
+
+				<img src="images/gridgallery5.jpg"  onclick="openModal();currentSlide(6)"   alt="photo of a cemetery landscape entrance">
+				
+			</div>
+			
+			<div class="gallery-text">Whitmore Cemetery Entrance</div>
+
+		</div>
+
+	</div>
+
+
+
+	
+
+	<div class="gallery-container w-3 h-3">
+
+		<div class="gallery-item">
+
+			<div class="image">
+
+				<img src="images/gridgallery7.jpg" onclick="openModal();currentSlide(7)"   alt="photo of a japanese garden">
+				
+			</div>
+			
+			<div class="gallery-text">Fukazaki Japanese Garden</div>
+
+		</div>
+
+	</div>
+
+
+
+	<div class="gallery-container w-3 h-3">
+
+		<div class="gallery-item">
+
+			<div class="image">
+
+				<img src="images/gridgallery8.jpg" onclick="openModal();currentSlide(8)"  alt="photo of a native plant garden">
+				
+			</div>
+
+			<div class="gallery-text">Residential Native Plant Garden</div>
+
+		</div>
+
+	</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- The Modal/Lightbox -->
+
+
+
+
+<div id="myModal" class="modal">
+	  <span class="close cursor"  onclick="closeModal()">&times;</span>
+	 	 <div class="modal-content">
+
+			    <div class="mySlides">
+			      <div class="numbertext">1 / 8</div>
+			      <img class="grid-image" src="images/grid.jpg" style="width:100%"> <h5 id="imagecaption">Pfieffer Beach Restoration </h5>
+			    </div>
+
+			    <div class="mySlides">
+			      <div class="numbertext">2 / 8</div>
+			      <img class="grid-image" src="images/gridgallery2.jpeg" style="width:100%"> <h5 id="imagecaption">Birchwood Condo Gardens</h5>
+			    </div>
+
+			    <div class="mySlides">
+			      <div class="numbertext">3 / 8</div>
+			      <img class="grid-image"  src="images/gridgallery3.jpg" style="width:100%"> <h5 id="imagecaption"> Pershing Square Master Plan </h5>
+			    </div>
+
+			    <div class="mySlides">
+			      <div class="numbertext">4 / 8</div>
+			      <img class="grid-image" src="images/gridgallery1.jpg" style="width:100%"> <h5 id="imagecaption"> UCLA Quad Redesign</h5>
+			    </div>
+
+			      <div class="mySlides">
+			      <div class="numbertext">5 / 8</div>
+			      <img class="grid-image"  src="images/gridgallery6.jpg" style="width:100%"> <h5 id="imagecaption"> Bel Air Roman Garden </h5>
+			    </div>
+
+			      <div class="mySlides">
+			      <div class="numbertext">6 / 8</div>
+			      <img  class="grid-image"  src="images/gridgallery5.jpg" style="width:100%"> <h5 id="imagecaption">Whitmore Cemetery Entrance </h5>
+			    </div>
+
+			      <div class="mySlides">
+			      <div class="numbertext">7 / 8</div>
+			      <img class="grid-image"  src="images/gridgallery7.jpg" style="width:100%"> <h5 id="imagecaption"> Fukazaki Japanese Garden </h5>
+			    </div>
+
+			      <div class="mySlides">
+			      <div class="numbertext">8 / 8</div>
+			      <img class="grid-image"  src="images/gridgallery8.jpg" style="width:100%"> <h5 id="imagecaption"> Residential Native Plant Garden</h5>
+			    </div>
+
+
+
+		  	  <!-- Next/previous controls -->
+			    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+			    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+
+			 
+
+			   
+	  	</div>
+	</div>
+
+
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--       FOOTER       -->
+
+
+
+
+<section class="footer">
+	<a class="logo-footer" href="index.html">GRAVITAS  DESIGN</a>
+	<ul class="list">
+		<li><a href="index.html">HOME</a></li>
+		<li><a href="about.html">ABOUT</a></li>
+		<li><a href="contact.html">CONTACT</a></li>
+		<li><a href="grid.html">WORK</a></li>
+	</ul>
+	<div class="social">
+		<a href="#"><i class="bi bi-facebook"></i></a>
+		<a href="#"><i class="bi bi-instagram"></i></a>
+		<a href="#"><i class="bi bi-linkedin"></i></a>
+	</div>
+
+	
+		
+	<p class="addSymbol">Gravitas Design</div>
+	</p>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+<!--     SCRIPT     -->
+
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+
+
+<script>
+  AOS.init();
+</script>
+
+
+
+
+
+
+
+<!--       SCROLL NAVBAR        -->
+
+
+<script>
+	
+		window.addEventListener("scroll", function(){
+			var nav = document.querySelector("nav")
+			nav.classList.toggle("sticky", window.scrollY > 0);
+			nav.classList.toggle("sticky-active", window.scrollY >10)
+		})
+
+</script>
+
+
+
+
+
+
+
+
+
+
+<!--         IMAGE LIGHTBOX         -->
+
+
+<script>
+
+
+
+
+
+// Open the Modal
+function openModal() {
+  document.getElementById("myModal").style.display = "block";
+  document.getElementById("navclose").style.display = "none";
+
+}
+
+
+
+// Close the Modal
+function closeModal() {
+  document.getElementById("myModal").style.display = "none";
+  document.getElementById("navclose").style.display = "";
+}
+
+var slideIndex = 1;
+showSlides(slideIndex);
+
+// Next/previous controls
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+// Thumbnail image controls
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+
+  slides[slideIndex-1].style.display = "block";
+
+}
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--        HAMBURGER MENU       -->
+
+
+<script>
+	var navLinks = document.getElementById("navLinks");
+	var blur = document.getElementById('blur')
+	var blur2 = document.getElementById('blur2')
+	var blur3 = document.getElementById('blur3')
+	
+
+	function showMenu(){
+		navLinks.style.right = "0px";
+		blur.classList.toggle('active')
+		blur2.classList.toggle('active')
+		blur3.classList.toggle('active')
+
+	}
+
+function hideMenu(){
+		navLinks.style.right = "-250px";
+		blur.classList.remove('active')
+		blur2.classList.remove('active')
+		blur3.classList.remove('active')
+		
+	}
+</script>
+
+
+
+
+
+
+
+</body>
+</html>

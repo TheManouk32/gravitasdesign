@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1" >
+	<meta name="format-detection" content="telephone=no" />
+	<title>Contact Us</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+<link rel="stylesheet" href="https://use.typekit.net/tgg7jmd.css">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@300&display=swap" rel="stylesheet"> 
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans&display=swap" rel="stylesheet"> 
+
+
+</head>
+<body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--       LANDING PAGE        -->
+
+
+
+	<nav class="sticky" class="sticky-active">
+			<a id="blur2" class="logo" href="index.html">GRAVITAS  DESIGN</a>
+			<div class="nav-links" id="navLinks">
+				<i style="margin: 23px;"  id="xicon" class="bi bi-x-lg" onclick="hideMenu()"></i>
+				<ul>
+					<li><a href="index.html">HOME</a></li>
+					<li><a href="about.html">ABOUT</a></li>
+					<li><a href="contact.html">CONTACT</a></li>
+					<li><a href="grid.html">WORK</a></li>
+				</ul>
+			</div>
+			<i class="bi bi-list" onclick="showMenu()"></i>
+		</nav>
+
+
+
+<div id="blur">
+
+	<header class="subheader1">
+		
+
+
+    <h1>CONTACT US</h1>
+
+	</header>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--       CONTACT US MAP       -->
+
+
+
+
+<section class="location">
+
+	<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3302.4414131453996!2d-118.25352618441508!3d34.135047380583565!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2c11d9f913dd1%3A0xc9aead23d31d4c3d!2s411%20E%20Acacia%20Ave%2C%20Glendale%2C%20CA%2091205!5e0!3m2!1sen!2sus!4v1663269991266!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+</section>
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+<!--         CONTACT INFORMATION        -->
+
+
+
+
+<section class="contact-us">
+
+	<div class="row">
+
+		<div class="contact-col">
+			<div>
+				<i class="bi bi-house-fill"></i>
+				<span>
+					<h5>411 East Acacia Ave, <br> Glendale, Ca 91205</h5>
+					<p>We are located right in the heart of Glendale.</p>
+				</span>
+			</div>
+			<div>
+				<i class="bi bi-telephone-fill"></i>
+				<span>
+					<h5>818-569-4873</h5>
+					<p>Give our customer service team a call.</p>
+				</span>
+			</div>
+			<div>
+				<i class="bi bi-envelope-fill"></i>
+				<span>
+					<h5>info@gravitasdesign.com</h5>
+					<p>Send us an email about any inquiries.</p>
+				</span>
+			</div>
+		</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		<!--       CONTACT FORM        -->
+
+
+
+		<div class="contact-col"  style="position:relative; display:inline;" >
+				<form name="contact" method="POST" data-netlify="true">
+
+					<input type="text" name="name" required>
+					 <span id="floating-label1">Your name</span>
+
+					<input type="input" name="email" required>
+					<span id="floating-label">Your email</span>
+
+					<input type="text"  name="subject"  required>
+					<span id="floating-label2">Subject</span>
+
+					<textarea rows="8" name="message" required></textarea>
+					<span id="floating-label3">Your Message</span>
+
+					<button id="submitbtn" type="submit" class="hero-btn1">SUBMIT MESSAGE</button>
+
+				</form>
+		</div>
+
+	</div>
+</section>
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--       FOOTER       -->
+
+
+
+
+<section class="footer">
+	<a class="logo-footer" href="index.html">GRAVITAS  DESIGN</a>
+	<ul class="list">
+		<li><a href="index.html">HOME</a></li>
+		<li><a href="about.html">ABOUT</a></li>
+		<li><a href="contact.html">CONTACT</a></li>
+		<li><a href="grid.html">WORK</a></li>
+	</ul>
+	<div class="social">
+		<a href="#"><i class="bi bi-facebook"></i></a>
+		<a href="#"><i class="bi bi-instagram"></i></a>
+		<a href="#"><i class="bi bi-linkedin"></i></a>
+	</div>
+
+	
+		
+	<p class="addSymbol">Gravitas Design</div>
+	</p>
+</section>
+
+
+
+
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+<!--     SCRIPT     -->
+
+
+
+
+<!--       SCROLL NAVBAR        -->
+
+<script>
+	
+		window.addEventListener("scroll", function(){
+			var nav = document.querySelector("nav")
+			nav.classList.toggle("sticky", window.scrollY > 0);
+			nav.classList.toggle("sticky-active", window.scrollY >10)
+		})
+
+</script>
+
+
+
+<!--        HAMBURGER MENU       -->
+
+<script>
+	var navLinks = document.getElementById("navLinks");
+	var blur = document.getElementById('blur')
+	var blur2 = document.getElementById('blur2')
+
+	function showMenu(){
+		navLinks.style.right = "0px";
+		blur.classList.toggle('active')
+		blur2.classList.toggle('active')
+
+	}
+
+function hideMenu(){
+		navLinks.style.right = "-250px";
+		blur.classList.remove('active')
+		blur2.classList.remove('active')
+
+		
+	}
+</script>
+
+
+
+
+</body>
+</html>
+
+
+
+
+
+
+
+
