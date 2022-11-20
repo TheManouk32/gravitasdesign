@@ -3094,7 +3094,9 @@ textarea:focus ~ #floating-label3,
 
 
 .what-we-do h1{
-	font-size: 36px;
+	font-size: 32px;
+	width: 10rem;
+	border-bottom: 10px solid black;
 	padding-bottom: 5px;
 }
 
