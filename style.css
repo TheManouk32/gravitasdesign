@@ -1190,12 +1190,10 @@ padding: 100px 50px;
 		font-family: interstate, sans-serif;
 	font-weight: 700;
 	font-size: 48px;
-	-webkit-text-decoration: underline 12px;
-	text-decoration: underline 12px;
-	 -webkit-text-underline-position: under;
-	text-underline-position: under;
+	border-bottom: 12.5px solid black;
+	width: 15rem;
 	color: #300600;
-	padding-bottom: 25px;
+	padding-bottom: 10px;
 }
 
 .what-we-do h3{
