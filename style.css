@@ -2953,7 +2953,11 @@ textarea:focus ~ #floating-label3,
 }
 
 
-
+.testimonials-section {
+	width: 100%;	
+}
+	
+	
 .testimonials-section h1{
 	font-size: 40px;
 	font-family: interstate, sans-serif;
