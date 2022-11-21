@@ -937,6 +937,7 @@ nav .bi {
 	word-spacing: 2px;
 	font-size: 16px;
 	color: #300600;
+	margin-bottom: -10px
 }
 
 
@@ -2954,7 +2955,7 @@ textarea:focus ~ #floating-label3,
 
 
 .testimonials-section {
-	width: 100%;	
+	width: 90%;	
 }
 	
 	
@@ -2990,7 +2991,7 @@ textarea:focus ~ #floating-label3,
 
 
 .slide .job{
-	margin-bottom: -12.5px;
+	margin-bottom: -25px;
 }
 
 
